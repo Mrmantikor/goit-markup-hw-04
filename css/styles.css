@@ -48,6 +48,10 @@ img {
     display: block;
 }
 
+*,
+*::after,
+*::before;
+
 /* This is !_header_ ! page */
 .header-item {
     border-bottom: 1px solid #e7e9fc;
@@ -66,6 +70,16 @@ img {
     margin-right: auto;
 }
 
+.menu-nav .menu-nav-link::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+
+}
 .navigation-menu {
     display: flex;
     align-items: center;
@@ -101,10 +115,10 @@ body {
 }
 
 /* Menu Navigation */
+
 .menu-nav {
     display: flex;
     gap: 40px;
-
 }
 
 .menu-nav-link {
