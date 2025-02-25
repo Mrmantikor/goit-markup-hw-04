@@ -1,7 +1,7 @@
-/* Settings in project *//
+/* Settings in project */
 body {
   background-color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #434455;
 }
 
@@ -76,7 +76,7 @@ img {
 
 /* Logo WebStudio */
 .logo-type {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -132,7 +132,7 @@ img {
 }
 
 .navigation-link-studio:after {
-  content: "";
+  content: '';
   width: 100%;
   position: absolute;
   left: 0;
@@ -205,7 +205,7 @@ img {
 }
 
 .first-section-button {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -257,7 +257,6 @@ img {
 .features-card-titles {
   margin-bottom: 8px;
 }
-
 
 .features-card-text {
   letter-spacing: 0.02em;
@@ -355,7 +354,6 @@ img {
   flex-direction: row;
   max-width: 100%;
 }
-
 
 .team-social-icon {
   width: 100%;
@@ -480,7 +478,7 @@ img {
 
 .footer-logotype {
   display: inline-block;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -502,7 +500,7 @@ img {
 }
 
 .footer-social-div {
-  ...
+  ...;
 }
 
 .footer-social-text {
